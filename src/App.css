@@ -1,38 +1,70 @@
-.App {
+
+header h1{
+  color: rgb(104, 14, 189);
+  font-weight: bolder;
   text-align: center;
+  margin-top: 10px;
+  font-size: xx-large;
+  
+}
+header{
+  border-bottom: 3px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Counter app */
+.first{
+  /* border: 2px solid black; */
+  height: 60vh;
+  width: 100%;
+}
+.first h3 , .second h3, .userData h3{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: xx-large;
+  color: rgb(189, 28, 189);
+} 
+.card{
+  box-shadow: 2px 2px 2px 2px gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+   /* height: 6vh !important;
+   width: 6vw !important; */
+   color: white !important;
+   font-weight: 600 !important;
+   font-size: x-large !important;
+   cursor: pointer;
+   /* border-radius:  50px !important; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Rich text editor */
+.second{
+  /* border: 2px solid yellowgreen; */
+  height: 60vh;
+  width: 100%;
+}
+.editorbox{
+  font-size:x-large !important;
+  border: 3px solid rgb(190, 38, 190);
+  
+  padding: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+/* userData css */
+.userData{
+  /* border: 2px solid black; */
+  height: 60vh;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formlabel{
+  font-size:large !important;
+  margin: 10px !important;
+}
+.formcontrol{
+  padding: 12px !important;
+  font-size: large !important;
+  margin: auto !important;
 }
